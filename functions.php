@@ -24,3 +24,9 @@ print_r($dateInfo);
 $strtotimestamp = strtotime('now');
 echo $strtotimestamp;
 ?>
+<?php echo "<br>" ?>
+<?php echo date("l", time() - 60 * 60 * 24 * 150); ?>
+<?php echo "<br>" ?>
+<?php echo date("l", time() + 60 * 60 * 24 * 150); ?>
+<?php echo "<br>" ?>
+<?php echo date("l", mktime(0, 0, 0, 8, 6, 2002)); ?>
